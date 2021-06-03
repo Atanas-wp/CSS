@@ -1,0 +1,57 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("layout.css");
+
+body{
+	padding: 5em;
+	background: #eee;
+}
+
+.page {
+	max-width: 75rem;
+	margin: 0 auto;
+}
+
+.page > header {
+	border-bottom: 2px solid #000;
+}
+
+.site-title {
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 3rem;
+	min-width: 20vw;
+}
+
+img {
+	border: 3px solid #222;
+	padding: 0.5rem;
+	background: #fff;
+	box-shadow: 0 0 5rem 0 rgba(0,0,0,0.25);
+}
+
+.align-right {
+	float: right;
+	margin: 0 0 1rem 1.5rem;
+}
+
+.align-left {
+	float: left;
+	margin: 0 1.5rem 1rem 0;
+}
+
+blockquote {
+	width: 40%;
+	min-width: 15rem;
+	color: #444;
+	padding-top: 0;
+	font-family: Georgia, serif;
+	float: right;
+}
+
+aside a {
+	text-decoration: none;
+	color: #090;
+}
+

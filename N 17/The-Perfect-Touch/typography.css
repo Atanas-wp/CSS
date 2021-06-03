@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+
+html {
+	font: 16px/1.5 "PT Sans Narrow", sans-serif;
+	color: #287282;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: "PT Serif", serif;
+}
+
+h1 {font-size: 2rem;}
+h2 {font-size: 1.8rem;}
+h3 {font-size: 1.6rem;}
+h4 {font-size: 1.4rem;}

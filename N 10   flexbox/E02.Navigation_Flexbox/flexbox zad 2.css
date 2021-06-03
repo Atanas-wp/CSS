@@ -1,0 +1,60 @@
+html {
+	font: 18px/1.5 Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 5em;
+}
+
+body > header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+.site-title {
+	font-size: 3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	min-width: 20vw;
+	padding-bottom: 20px;
+}
+
+h1 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	display: block;
+	padding: 0 0.25em;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: rgb(0, 153, 0);
+	border-radius: 0.2rem;
+}
+
+nav ul li a:hover {
+	background: rgb(0, 153, 0);
+	color: #FFF;
+}
+

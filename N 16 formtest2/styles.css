@@ -1,0 +1,76 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font: 14px/1.5 Georgia, "Times New Roman", serif;
+	color: #333;
+}
+
+body, input, section, label, textarea, select, option {
+	font: inherit;
+	color: inherit;
+}
+
+body {
+	padding: 2rem;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 30rem;
+	/*background: #f6f6f6;*/
+	background: #999;
+	border: 1px solid #e4e4e4;
+	padding: 1rem;
+}
+
+.header {
+	border-bottom: 1px solid #666;
+	padding: 0 0 1em 4em;
+}
+
+.header h1 {
+	font-size: 2.2em;
+}
+
+.body {
+	padding-top: 1em;
+}
+
+.body p {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5em;
+}
+
+.body label {
+	max-width: 30%;
+	text-align: right;
+	flex-grow: 1;
+	padding: 0.3em 1em;
+}
+
+.body input, 
+.body textarea,
+.body select {
+	max-width: 70%;
+	flex-grow: 1;
+	padding: 0.5em;
+	/*border: 1px solid #dadada;*/
+	border: 1px solid #666;
+}
+
+.body .button {
+	background: #e27575;
+	border: none;
+	color: #fff;
+	max-width: 50%;
+	text-shadow: 1px 1px 1px #9e3f3f;
+	box-shadow: 1px 1px 5px #b6b6b6;
+	border-radius: 0.2em;
+	margin-left: 30%;
+}

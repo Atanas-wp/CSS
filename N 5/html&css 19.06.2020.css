@@ -1,0 +1,108 @@
+/*Reset CSS*/
+
+* {
+	padding:0;
+	margin:0;
+}
+
+html {
+	box-sizing: border-box;
+	font: 16px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*Typography CSS*/
+
+h1, h2, h3 {
+	padding-bottom: 1em;
+	font-family: Georgia, serif;
+}
+
+h1 {font-size: 2.2rem;}
+h2 {font-size: 1.6rem;}
+h3 {font-size: 1.5rem;}
+
+p, ul, ol {
+	padding-bottom: 1rem;
+}
+
+/*Layout CSS*/
+
+body {
+	padding: 2rem;
+}
+
+.site {
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+.site-header {
+	border-bottom: 4px solid #333;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+}
+
+.site-header a {
+	text-decoration: none;
+	color: #000;
+}
+
+.site-header nav li {
+	display: inline-block;
+}
+
+.site-header nav a {
+	border: 1px solid #999;
+	padding: 0.5rem 1rem;
+}
+
+.site-header nav a:hover {
+	color: #FFF;
+	background: #000;
+	border-color: #000;
+}
+
+.site-content {
+	/*border: 4px solid #000;*/
+}
+
+.main-content {
+	/*border: 2px solid #F00;*/
+	width: 70%;
+}
+
+.main-sidebar {
+	/*border: 2px solid #00F;*/
+	width: 29%;
+	vertical-align: top;
+	padding-left: 1rem;
+}
+
+.main-sidebar ul {
+	padding: 1rem;
+	padding-right: 0;
+	padding-left:0;
+}
+
+.main-sidebar li {
+	margin-left: 1rem;
+}
+
+.main-sidebar  section {
+	padding-bottom: 1.5rem;
+}
+
+.main-content,
+.main-sidebar {
+	display: inline-block;
+}
+
+.site-footer {
+	border-top: 4px solid #333;
+	padding-top: 1rem;
+	margin-top: 2rem;
+}
